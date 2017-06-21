@@ -39,7 +39,7 @@
                     <p class="bottom-name">{{name}}</p>
                     <div class="address">
                         <p>{{#address.city}} {{address.city}}, {{/address.city}} {{address.country}} | {{#job}} {{job}},{{company}}
-                            {{/job}}{{^job}}Available for Hire{{/job}}</p>
+                            {{/job}}{{^job}}<span style="color: red">Available for Hire</span>{{/job}}</p>
                         <p>{{email}} | {{phone}}</p>
                     </div>
                 </div>
